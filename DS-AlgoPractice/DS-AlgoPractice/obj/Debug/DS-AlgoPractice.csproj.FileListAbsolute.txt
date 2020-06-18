@@ -1,0 +1,7 @@
+E:\Personal\GitHub_Repo\DS-Algo\DS-AlgoPractice\DS-AlgoPractice\bin\Debug\DS-AlgoPractice.exe.config
+E:\Personal\GitHub_Repo\DS-Algo\DS-AlgoPractice\DS-AlgoPractice\bin\Debug\DS-AlgoPractice.exe
+E:\Personal\GitHub_Repo\DS-Algo\DS-AlgoPractice\DS-AlgoPractice\bin\Debug\DS-AlgoPractice.pdb
+E:\Personal\GitHub_Repo\DS-Algo\DS-AlgoPractice\DS-AlgoPractice\obj\Debug\DS-AlgoPractice.csprojAssemblyReference.cache
+E:\Personal\GitHub_Repo\DS-Algo\DS-AlgoPractice\DS-AlgoPractice\obj\Debug\DS-AlgoPractice.csproj.CoreCompileInputs.cache
+E:\Personal\GitHub_Repo\DS-Algo\DS-AlgoPractice\DS-AlgoPractice\obj\Debug\DS-AlgoPractice.exe
+E:\Personal\GitHub_Repo\DS-Algo\DS-AlgoPractice\DS-AlgoPractice\obj\Debug\DS-AlgoPractice.pdb
