@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DS_AlgoPractice
+﻿namespace DSAlgoLibrary.Arrays
 {
-    internal class TrapWater
+    public class TrapWater
     {
-        internal int Trap(int[] height)
+        public int Trap(int[] height)
         {
             int low = 0, high = height.Length - 1;
             int leftMax = 0,rightMax = 0;

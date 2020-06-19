@@ -1,0 +1,6 @@
+E:\Personal\GitHub_Repo\DS-Algo\DS-AlgoPractice\DS-AlgoLibrary\bin\Debug\DS-AlgoLibrary.dll
+E:\Personal\GitHub_Repo\DS-Algo\DS-AlgoPractice\DS-AlgoLibrary\bin\Debug\DS-AlgoLibrary.pdb
+E:\Personal\GitHub_Repo\DS-Algo\DS-AlgoPractice\DS-AlgoLibrary\obj\Debug\DS-AlgoLibrary.csprojAssemblyReference.cache
+E:\Personal\GitHub_Repo\DS-Algo\DS-AlgoPractice\DS-AlgoLibrary\obj\Debug\DS-AlgoLibrary.csproj.CoreCompileInputs.cache
+E:\Personal\GitHub_Repo\DS-Algo\DS-AlgoPractice\DS-AlgoLibrary\obj\Debug\DS-AlgoLibrary.dll
+E:\Personal\GitHub_Repo\DS-Algo\DS-AlgoPractice\DS-AlgoLibrary\obj\Debug\DS-AlgoLibrary.pdb
