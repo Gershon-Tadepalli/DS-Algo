@@ -1,5 +1,6 @@
 ﻿using System;
 using DS_AlgoLibrary.Arrays;
+using DS_AlgoLibrary.Strings;
 using DSAlgoLibrary.Arrays;
 
 namespace DS_AlgoPractice
@@ -42,7 +43,7 @@ namespace DS_AlgoPractice
 
 
                     //Remove Duplicates in Sorted Array
-                    int[] duplicateArray = {0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
+                    int[] duplicateArray = { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
                     RemoveDuplicatesOfSortedArray rd = new RemoveDuplicatesOfSortedArray();
                     int length = rd.RemoveDuplicates(duplicateArray);
                     Console.WriteLine("Array after removing duplicates:");
@@ -50,7 +51,17 @@ namespace DS_AlgoPractice
                     {
                         Console.Write($" {duplicateArray[i]} ,");
                     }
-
+                    Console.WriteLine();
+                    //Reverse A string
+                    char[] reverseStringIp = {'h', 'e', 'l', 'l', 'o'};
+                    Console.WriteLine("Input string to Reverse: ");
+                    foreach (var item in reverseStringIp)
+                    {
+                        Console.Write($"{item} ");
+                    }
+                    Console.WriteLine();
+                    ReverseAString reverse = new ReverseAString();
+                    reverse.ReverseString(reverseStringIp);
                     break;
 
                 default:
