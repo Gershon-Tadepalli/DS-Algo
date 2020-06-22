@@ -1,5 +1,6 @@
 ﻿using System;
 using DS_AlgoLibrary.Arrays;
+using DS_AlgoLibrary.SortingAndSearching;
 using DS_AlgoLibrary.Strings;
 using DSAlgoLibrary.Arrays;
 
@@ -68,6 +69,12 @@ namespace DS_AlgoPractice
                     Palindrome PalindromeIp = new Palindrome();
                     bool status = PalindromeIp.IsPalindrome(palindromInput);
                     Console.WriteLine($"Given string is Palindrome or not : {status}");
+
+                    //First Bad Version
+                    FirstBadVersion version = new FirstBadVersion();
+                    version.firstBadVersion = 5;
+                    int firstBadVersion = version.FindFirstBadVersion(8);
+                    if (version.firstBadVersion == firstBadVersion) Console.WriteLine($"First Bad verison found at : {firstBadVersion}");
                     break;
 
                 default:
