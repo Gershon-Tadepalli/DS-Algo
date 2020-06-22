@@ -30,7 +30,7 @@ namespace DS_AlgoLibrary.Strings
                 {
                     Console.Write($"{s[i]} ");
                 }
-                
+                Console.WriteLine();
             }
         }
         }

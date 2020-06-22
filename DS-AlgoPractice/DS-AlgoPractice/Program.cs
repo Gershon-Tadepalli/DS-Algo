@@ -62,6 +62,12 @@ namespace DS_AlgoPractice
                     Console.WriteLine();
                     ReverseAString reverse = new ReverseAString();
                     reverse.ReverseString(reverseStringIp);
+
+                    //valid Palindrome
+                    string palindromInput = "race a car";
+                    Palindrome PalindromeIp = new Palindrome();
+                    bool status = PalindromeIp.IsPalindrome(palindromInput);
+                    Console.WriteLine($"Given string is Palindrome or not : {status}");
                     break;
 
                 default:
