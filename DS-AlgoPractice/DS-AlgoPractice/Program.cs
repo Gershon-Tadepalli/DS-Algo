@@ -1,5 +1,6 @@
 ﻿using System;
 using DS_AlgoLibrary.Arrays;
+using DS_AlgoLibrary.LinkedList;
 using DS_AlgoLibrary.SortingAndSearching;
 using DS_AlgoLibrary.Strings;
 using DSAlgoLibrary.Arrays;
@@ -75,6 +76,18 @@ namespace DS_AlgoPractice
                     version.firstBadVersion = 5;
                     int firstBadVersion = version.FindFirstBadVersion(8);
                     if (version.firstBadVersion == firstBadVersion) Console.WriteLine($"First Bad verison found at : {firstBadVersion}");
+                    break;
+                case "LL":
+
+                    LinkedList linkedList = new LinkedList();
+                    linkedList.InsertAtEnd(10);
+                    linkedList.InsertAtEnd(20);
+                    linkedList.InsertAtEnd(30);
+
+                    ReverseALinkedList reverseALinkedList = new ReverseALinkedList();
+                    ListNode newHead = reverseALinkedList.ReverseList(linkedList.head);
+                    Console.WriteLine();
+                    linkedList.printList(newHead);
                     break;
 
                 default:
