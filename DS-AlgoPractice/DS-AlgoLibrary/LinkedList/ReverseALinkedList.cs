@@ -48,6 +48,7 @@ namespace DS_AlgoLibrary.LinkedList
     }
     public class ReverseALinkedList
     {
+        //iterative approach
         public ListNode ReverseList(ListNode head)
         {
             //move to next one at a time keeping track of previous node and changing link direction
@@ -60,6 +61,35 @@ namespace DS_AlgoLibrary.LinkedList
                 curr = next;
             }
             return prev;
+        }
+
+        //Recursive approach Method 1
+        public ListNode Recursive_ReverseList(ListNode head)
+        {
+            //reverse rest n-1 nodes
+            if (head == null || head.next == null)
+                return head;
+
+            ListNode rest_head = Recursive_ReverseList(head.next);
+            ListNode rest_tail = head.next;
+            rest_tail.next = head;
+            return rest_head;
+        }
+
+        //Recursive approach with first n-1 nodes reverse
+        public ListNode Recursive_ReverseList_Method2(ListNode head)
+        {
+            //reverse first n-1 nodes
+            //use 2 ref's prev and current
+            ListNode prev = null;
+            return ReverseLL(head, prev);
+        }
+
+        private ListNode ReverseLL(ListNode curr,ListNode prev)
+        {
+            ListNode next = curr.next;
+            curr.next = prev;
+            ReverseLL(next, curr);
         }
 
     }
